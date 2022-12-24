@@ -11,10 +11,10 @@ import com.goodaplikasi.nisaardiyanti.fragments.MainFragmentDirections
 import com.goodaplikasi.nisaardiyanti.models.Job
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
-
-class RemoteJobAdapter : RecyclerView.Adapter<RemoteJobAdapter.RemoteJobViewHolder>() {
 //Kelas RemoteJobAdapter
-        //no.3 Adapter(tampil ke recycleview) terdapat pada baris 15-32 dan 43-48
+class RemoteJobAdapter : RecyclerView.Adapter<RemoteJobAdapter.RemoteJobViewHolder>() {
+//no.3 Adapter(tampil ke recycleview) terdapat pada baris 15-32 dan 43-48
+//Fitur Adapter(tampil ke recycleview) ada di class RemoteJob terdapat pada baris 15-32
     private var binding: JobLayoutAdapterBinding? = null
     class RemoteJobViewHolder(itemBinding: JobLayoutAdapterBinding) :
         RecyclerView.ViewHolder(itemBinding.root)
