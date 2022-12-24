@@ -33,5 +33,6 @@ abstract class RemoteJobDatabase : RoomDatabase() {
                 RemoteJobDatabase::class.java,
                 "remoteJob_db2"
             ).build()
+//Fitur RoomDb(Konfigurasi db) Tedapat pada Class RemoteJobDatabase baris 30-35
     }
 }
