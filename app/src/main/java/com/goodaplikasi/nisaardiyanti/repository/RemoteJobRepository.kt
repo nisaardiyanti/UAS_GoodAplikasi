@@ -35,6 +35,7 @@ class RemoteJobRepository(private val db: RemoteJobDatabase) {
                 override fun onFailure(call: Call<RemoteJob>, t: Throwable) {
                     remoteJobResponseLiveData.postValue(null)
                     Log.d("error ibm", t.message.toString())
+//Fitur Repository(apakah online first)  Tedapat pada Class RemoteJobRepository baris 35-37
                 }
             })
     }
