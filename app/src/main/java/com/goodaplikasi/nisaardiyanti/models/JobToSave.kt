@@ -20,4 +20,5 @@ data class JobToSave(
     val salary: String?,
     val title: String?,
     val url: String?
+   // Fitur entity(field) terdapat pada  class JobToSave  baris 7-22
 )
