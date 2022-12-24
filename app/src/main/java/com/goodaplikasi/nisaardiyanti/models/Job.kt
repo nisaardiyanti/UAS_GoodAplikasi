@@ -7,6 +7,7 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Job(
+        //no.4 class data(objek data) terdapat pada baris 9-27
     @SerializedName("candidate_required_location")
     val candidateRequiredLocation: String?,
     val category: String?,
