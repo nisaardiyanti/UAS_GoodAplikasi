@@ -14,10 +14,11 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 
 class RemoteJobAdapter : RecyclerView.Adapter<RemoteJobAdapter.RemoteJobViewHolder>() {
 //Kelas RemoteJobAdapter
+        //no.3 Adapter(tampil ke recycleview) terdapat pada baris 15-32 dan 43-48
     private var binding: JobLayoutAdapterBinding? = null
-
     class RemoteJobViewHolder(itemBinding: JobLayoutAdapterBinding) :
         RecyclerView.ViewHolder(itemBinding.root)
+        //ViewHolder menjelaskan tampilan item dan metadata tentang tempatnya dalam RecyclerView.
 //ViewHolder menjelaskan tampilan item dan metadata tentang tempatnya dalam RecyclerView.
     private val differCallback = object :
         DiffUtil.ItemCallback<Job>() {
