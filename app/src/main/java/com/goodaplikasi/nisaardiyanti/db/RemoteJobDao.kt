@@ -20,4 +20,5 @@ interface RemoteJobDao {
     @Delete
         //fungsi delete
     suspend fun deleteJob(job: JobToSave)
+   // Fitur  Dao(query) terdapat pada class RemoteDao  baris 12-22
 }
