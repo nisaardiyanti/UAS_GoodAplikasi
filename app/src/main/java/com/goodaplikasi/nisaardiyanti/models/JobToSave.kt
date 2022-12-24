@@ -5,6 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "job")
+//9. entity(field) terdapat pada baris 7-22
 data class JobToSave(
     @PrimaryKey(autoGenerate = true)
     val id: Int,
