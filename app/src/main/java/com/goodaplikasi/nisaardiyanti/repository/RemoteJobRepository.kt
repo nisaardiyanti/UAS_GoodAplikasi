@@ -13,27 +13,25 @@ import retrofit2.Response
 
 
 class RemoteJobRepository(private val db: RemoteJobDatabase) {
-
+//kelas RemoteJobRepository dengan db RemoteJobDatabase
     private val remoteJobService = RetrofitInstance.api
     private val remoteJobResponseLiveData: MutableLiveData<RemoteJob> = MutableLiveData()
     private val searchRemoteJobLiveData: MutableLiveData<RemoteJob> = MutableLiveData()
-
-
     init {
-
         getRemoteJobResponse()
+                //mengambil data RemoteJobResponse
     }
-
      private fun getRemoteJobResponse() {
-
         remoteJobService.getRemoteJob().enqueue(
+                    //mengambil data Remotejob
             object : Callback<RemoteJob> {
                 override fun onResponse(call: Call<RemoteJob>, response: Response<RemoteJob>) {
+//memanggil RemoteJob response RemoteJob
                     if (response.body() != null) {
                         remoteJobResponseLiveData.postValue(response.body())
-                    }
-                }
-
+   //remoteJobResponse untuk LiveData
+                }  }
+ //no.6 repository(apakah online first) pada baris 35-37
                 override fun onFailure(call: Call<RemoteJob>, t: Throwable) {
                     remoteJobResponseLiveData.postValue(null)
                     Log.d("error ibm", t.message.toString())
@@ -53,6 +51,7 @@ class RemoteJobRepository(private val db: RemoteJobDatabase) {
 
                 override fun onFailure(call: Call<RemoteJob>, t: Throwable) {
                     searchRemoteJobLiveData.postValue(null)
+                    //pencarian dengan live data
                     Log.d("error ibm", t.message.toString())
                 }
 
