@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:drawablePadding="4dp"
                 android:layout_weight="1"
-                android:text="Today"
+                android:text="Tanggal"
                 android:textSize="15sp"
                 app:drawableStartCompat="@drawable/ic_date" />
 
@@ -44,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Job Title"
+            android:text="Posisi"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:drawablePadding="4dp"
-            android:text="job type"
+            android:text="Jadwal kerja"
             android:textSize="15sp"
             app:drawableStartCompat="@drawable/ic_time" />
 
@@ -64,7 +64,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Job location"
+            android:text="Lokasi"
             android:textSize="15sp"
             app:drawableStartCompat="@drawable/ic_location" />
     </LinearLayout>
@@ -90,7 +90,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="Company Name"
+            android:text="Nama perusahaan"
             android:textColor="@color/black"
             android:textSize="18sp" />
 
