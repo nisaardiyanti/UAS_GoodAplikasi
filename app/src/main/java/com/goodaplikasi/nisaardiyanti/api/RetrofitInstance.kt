@@ -6,7 +6,7 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-
+//Todo 2: Melakukan parsing data hasil dari respon API
 class RetrofitInstance {
 //Kelas RetrofitInstance
     companion object {
