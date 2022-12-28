@@ -3,7 +3,7 @@ package com.goodaplikasi.nisaardiyanti.db
 import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.goodaplikasi.nisaardiyanti.models.JobToSave
-
+//Todo 3: merupakan kelas room database, berfungsi dalam pengambilan database
 
 @Dao
 interface RemoteJobDao {
