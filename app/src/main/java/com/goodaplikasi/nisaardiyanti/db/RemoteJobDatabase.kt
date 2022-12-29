@@ -5,7 +5,7 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import com.goodaplikasi.nisaardiyanti.models.JobToSave
-
+//Todo 4 : untuk room database yang akan mempresentasikan entitas pada database
 @Database(entities = [JobToSave::class], version = 1)
 //no.9 entity(field) dari baris 9-28
 abstract class RemoteJobDatabase : RoomDatabase() {
