@@ -23,7 +23,7 @@ class RemoteJobViewModel(
 //function cari menggunakan query string pada RemoteJobRepository
     fun searchResult() = remoteJobRepository.getSearchJobResponseLiveData()
 //function getSearchJobResponseLiveData untuk mengambil data dari remoteJobRepository
-
+ //Viewmodel terletak di kelas Viewmodel pada baris 27-34
     fun insertJob(job: JobToSave) = viewModelScope.launch {
             //function untuk memasukkan job
 
