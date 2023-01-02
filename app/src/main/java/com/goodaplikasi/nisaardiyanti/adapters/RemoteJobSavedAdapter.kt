@@ -82,7 +82,7 @@ class RemoteJobSavedAdapter constructor(
                 currentJob.publicationDate, currentJob.salary, tags,
                 currentJob.title, currentJob.url
             )
-
+//Menampilkan data ke fragmen menggunakan class RemoteJobAdapter pada baris kode 86-89
             val direction = MainFragmentDirections
                 .actionMainFragmentToJobDetailsFragment(job)
             mView.findNavController().navigate(direction)
