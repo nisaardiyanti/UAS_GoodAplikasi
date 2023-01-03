@@ -31,6 +31,7 @@ class RemoteJobRepository(private val db: RemoteJobDatabase) {
                         remoteJobResponseLiveData.postValue(response.body())
    //remoteJobResponse untuk LiveData
                 }  }
+               // Repository yang berisi host terdapat  pada kelas RemoteJobRepository.kt  baris 35-37
  //no.6 repository(apakah online first) pada baris 35-37
                 override fun onFailure(call: Call<RemoteJob>, t: Throwable) {
                     remoteJobResponseLiveData.postValue(null)
