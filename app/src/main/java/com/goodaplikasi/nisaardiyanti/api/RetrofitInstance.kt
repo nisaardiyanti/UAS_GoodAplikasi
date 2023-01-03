@@ -17,7 +17,7 @@ class RetrofitInstance {
         private val retrofit by lazy {
             //validasi retrofit
             val logging = HttpLoggingInterceptor()
-//no.5 network api (http request) terdapat pada baris 19-27
+//no.5 network api (http request) terdapat pada baris 17-38
     //secara otomatis mencatat permintaan dan tanggapan HTTP yang masuk dan keluar ke Logcat,
     // di mana kita kemudian dapat melihat informasi seperti jenis permintaan,
     // URL yang diselesaikan sepenuhnya, jenis konten, header HTTP yang berbeda, dan muatan dari body itu sendiri
